@@ -6,6 +6,17 @@ This project builds machine learning models to predict whether a credit card cus
 
 The analysis uses historical customer financial and repayment data to identify high-risk customers and evaluate predictive model performance.
 
+## Workflow
+
+1. Load cleaned dataset
+2. Feature selection and target definition
+3. Train-test split
+4. Feature scaling using StandardScaler
+5. Train classification models
+6. Evaluate model performance
+7. Compare results
+8. Generate business insights
+
 ---
 
 ## Dataset
@@ -54,19 +65,6 @@ Evaluation metrics:
 - Recall
 - F1-score
 - Confusion Matrix
-
----
-
-## Workflow
-
-1. Load cleaned dataset
-2. Feature selection and target definition
-3. Train-test split
-4. Feature scaling using StandardScaler
-5. Train classification models
-6. Evaluate model performance
-7. Compare results
-8. Generate business insights
 
 ---
 
