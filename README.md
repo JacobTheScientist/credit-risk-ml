@@ -125,3 +125,8 @@ credit-risk-analysis-pandas/
 ├── credit-risk-ml.ipynb  # Main machine learning notebook
 
 ```
+
+---
+
+## View Full Notebook
+[Open Notebook](./credit-risk-ml.ipynb)
