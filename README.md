@@ -6,19 +6,28 @@ This project builds machine learning models to predict whether a credit card cus
 
 The analysis uses historical customer financial and repayment data to identify high-risk customers and evaluate predictive model performance.
 
-### Workflow:
-- Load cleaned credit risk dataset
-- Feature selection and target definition
-- Train-test split
-- Feature scaling
-- Model training and evaluation
-- Performance comparison and business interpretation
+---
 
-**Dataset:** Credit Card Default Dataset  
-**Records:** 30,000 customers  
-**Features:** 25 variables  
-**Target Variable:** `default payment next month`
+## Dataset
+Dataset used: **Default of Credit Card Clients Dataset**
 
+Source:
+https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
+
+Contains:
+- Customer demographics
+- Credit limits
+- Bill statements
+- Repayment history
+- Default labels
+
+---
+
+## Tools Used
+- Python
+- Pandas
+- NumPy
+- Jupyter Notebook
 ---
 
 ## Machine Learning Objective
@@ -52,3 +61,13 @@ A reliable prediction model can help:
 - detect customers likely to default
 - improve credit scoring decisions
 - support risk management strategies
+
+- ## Project Structure
+
+```bash
+credit-risk-analysis-pandas/
+│
+├── README.md                   # Project documentation
+├── credit-risk-ml.ipynb  # Main machine learning notebook
+
+```
