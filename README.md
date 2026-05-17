@@ -21,6 +21,10 @@ Contains:
 - Repayment history
 - Default labels
 
+**Records:** 30,000 customers  
+**Features:** 25 variables  
+**Target Variable:** `default payment next month`
+
 ---
 
 ## Tools Used
@@ -28,6 +32,7 @@ Contains:
 - Pandas
 - NumPy
 - Jupyter Notebook
+
 ---
 
 ## Machine Learning Objective
@@ -52,17 +57,66 @@ Evaluation metrics:
 
 ---
 
-## Business Problem
+## Workflow
 
-Banks need to identify high-risk customers early to reduce credit losses.
+1. Load cleaned dataset
+2. Feature selection and target definition
+3. Train-test split
+4. Feature scaling using StandardScaler
+5. Train classification models
+6. Evaluate model performance
+7. Compare results
+8. Generate business insights
 
-A reliable prediction model can help:
+---
 
-- detect customers likely to default
-- improve credit scoring decisions
-- support risk management strategies
+## Evaluation Metrics
 
-- ## Project Structure
+Models were evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+
+These metrics help measure both overall performance and the model's ability to correctly identify defaulters.
+
+---
+
+## Model Performance
+
+| Model | Accuracy |
+|---|---|
+| Logistic Regression | 81% |
+| KNN Classifier | 79% |
+| Random Forest | 82% |
+
+**Best Model:** Random Forest achieved the highest overall predictive performance.
+
+---
+
+## Key Insights
+
+- Repayment behavior is the strongest predictor of customer default.
+- Customers with multiple delayed payments are significantly more likely to default.
+- Lower credit limits are associated with higher default risk.
+
+---
+
+## Business Recommendations
+
+Banks can use predictive models like this to:
+
+- Flag customers with repayment delays early
+- Improve credit scoring decisions
+- Monitor high-risk customer segments more closely
+- Reduce financial losses from defaulting customers
+
+---
+
+
+## Project Structure
 
 ```bash
 credit-risk-analysis-pandas/
